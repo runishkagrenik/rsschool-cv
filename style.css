@@ -1,3 +1,71 @@
-p {
-    color: red;
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mine {
+    border: 1px solid red;
+}
+
+.footer {
+    border: 1px solid red; 
+}
+
+.body {
+    margin: 0;
+    width: 1000px;
+    margin: auto;
+   box-shadow: 0 0 10px black;
+}
+
+.header {
+    background-color: gray;
+}
+
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item {
+    margin: 15px 10px;
+}
+
+.mine-h1 {
+    font-size: 48px;
+}
+
+.mine-text {
+    font-size: 24px;
+}
+
+.cv-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    }
+
+.main {
+    
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
 }
