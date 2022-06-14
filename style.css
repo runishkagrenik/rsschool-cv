@@ -145,3 +145,8 @@ body {
     text-decoration: none;
     color: white;
 }
+
+.footer-text {
+    font-size: 23px;
+    color: white;
+}
