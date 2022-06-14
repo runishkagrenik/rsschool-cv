@@ -8,14 +8,6 @@ body {
 }
 
 
-.mine {
-    border: 1px solid red;
-}
-
-.footer {
-    border: 1px solid red; 
-}
-
 .body {
     margin: 0;
     width: 1000px;
@@ -42,14 +34,14 @@ body {
 }
 
 .menu-item {
-    margin: 15px 10px;
+    margin: 15px 10px 25px;
 }
 
 .name {
     font-size: 48px;
 }
 
-.mine-text {
+.mine-h2 {
     font-size: 24px;
 }
 
@@ -61,9 +53,12 @@ body {
     margin: 10px;
     }
 
-
-
 .info {
     display: flex;
     justify-content: space-around;
+}
+
+
+.footer {
+background-color: gray;
 }
